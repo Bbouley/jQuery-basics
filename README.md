@@ -6,9 +6,11 @@ Let's run through the basics of jQuery, and most importantly how to setup a basi
 
 First up, we're going to create a basic template for out jQuery. We'll start by making a new directory called jQuery-basics. cd into that directory and create 3 files, call them index.html, styles.css and main.js. The project structure should look like this:
 
-├── index.html
-├── main.js
-└── styles.css
+```
+ |-index.html
+ |-main.js
+ |-styles.css
+```
 
 ### Building the Html
 
@@ -175,3 +177,5 @@ $('#myButton').on('click', function() {
     console.log('Button Clicked');
   })
 ```
+
+Now reload the page and open up the console. You should see on the first line 'sanity check' printed out. This is from our document ready function. Next, click on the button. Underneath, on the next line, you should see 'Button Clicked' printed out. If you keep clicking it, it will add
