@@ -1,6 +1,6 @@
 ## An intro to document.ready
 
-Let's run through the basics of jQuery, and most importantly how to setup a basic webpage that uses jQuery to make our page dynamic. I'll start with a little bit about jQuery. jQuery is a javascript library. It adds all sorts of cool functions that would take ages to write out ourselves, into an easy-to-use library that we access using either ```jQuery``` or just ```$.``` don't worry too much about that now though, I'll get onto syntax later.
+Let's run through the basics of jQuery, and most importantly how to setup a basic webpage that uses jQuery to make our page dynamic. I'll start with a little bit about jQuery. jQuery is a javascript library. It adds all sorts of cool functions that would take ages to write out ourselves using vanilla javascript, in an easy-to-use library that we access using either ```jQuery``` or just ```$.``` don't worry too much about that now though, I'll get onto syntax later.
 
 ### Initial Setup
 
