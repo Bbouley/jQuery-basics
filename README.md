@@ -1,4 +1,4 @@
-## jQuery
+## jQuery intro
 
 Let's run through the basics of jQuery, and most importantly how to setup a basic webpage that uses jQuery to make our page dynamic. I'll start with a little bit about jQuery. jQuery is a javascript library. It adds all sorts of cool functions that would take ages to write out ourselves, into an easy-to-use library that we access using either ```jQuery`` or just ```$.``` don't worry too much about that now though, I'll get onto syntax later.
 
@@ -178,7 +178,7 @@ $('#myButton').on('click', function() {
   })
 ```
 
-Now reload the page and open up the console. You should see on the first line 'sanity check' printed out. This is from our document readyfunction. Next, click on the button. Underneath, on the next line, you should see 'Button Clicked' printed out. So we have now successfully added an event listener to that button. Every time we click the button, it will perform the task we've specified. So right now, every time we click that button, it will print out 'Button Clicked'.
+Now reload the page and open up the console. You should see on the first line 'sanity check' printed out. This is from our document readygfunction. Next, click on the button. Underneath, on the next line, you should see 'Button Clicked' printed out. So we have now successfully added an event listener to that button. Every time we click the button, it will perform the task we've specified. So right now, every time we click that button, it will print out 'Button Clicked'.
 
 This is all well and good, but why not do something a little more exciting. How about a new background colour? We can again search the jQuery docs for changing css background. The command is simply ```.css()``` So let's add this into our on.click :
 
@@ -190,4 +190,6 @@ $('#myButton').on('click', function() {
 
 Again, we have the same syntax as before. The first part ```$('body')``` is selecting the body element of the page. After this we are adding the .css() function to change the elements css. We have passed it 2 arguments. 'background-color', because that is the css property we want to change, and then 'red', because that's the colour we want to change it to.
 
-So there you have it. We now have a basic button that does a single task. You can keep adding as much functionality as you want to your webpage, and there's tons more things to do with jQuery. So mess around. Try adding another button that will turn the background back to blue. Or using another jQuery function to do something completely different. Have fun!!!
+### Outro
+
+So there you have it. We now have a basic button that does a single task. You can keep adding as much functionality as you want to your webpage, and there's tons more things to do with jQuery. So mess around. Try adding another button that will turn the background back to blue. Or using another jQuery function to do something completely different. Have fun!!!g
