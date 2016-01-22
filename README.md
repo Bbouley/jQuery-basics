@@ -192,4 +192,4 @@ Again, we have the same syntax as before. The first part ```$('body')``` is sele
 
 ### Outro
 
-So there you have it. We now have a basic button that does a single task. You can keep adding as much functionality as you want to your webpage, and there's tons more things to do with jQuery. So mess around. Try adding another button that will turn the background back to blue. Or using another jQuery function to do something completely different. Have fun!!!g
+So there you have it. We now have a basic button that does a single task. You can keep adding as much functionality as you want to your webpage, and there's tons more things to do with jQuery. So mess around. Try adding another button that will turn the background back to blue. Or using another jQuery function to do something completely different. Have fun!!!
