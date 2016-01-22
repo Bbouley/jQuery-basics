@@ -168,7 +168,7 @@ $('#myButton').on('click', function() {
 There are other ways of doing this, using just ```.click()``` but for this example, we'll go with the ```.on()``` way of writing this. So now we've selected our button, written out the skeleton for out function, and we're ready for the next step.
 
 
-### Event
+### Click Away
 
 I always like to make sure I've added the selectors correctly and test that the function itself is firing so I've added a console.log to check that when I click the button, this function fires.
 
@@ -178,4 +178,16 @@ $('#myButton').on('click', function() {
   })
 ```
 
-Now reload the page and open up the console. You should see on the first line 'sanity check' printed out. This is from our document ready function. Next, click on the button. Underneath, on the next line, you should see 'Button Clicked' printed out. If you keep clicking it, it will add
+Now reload the page and open up the console. You should see on the first line 'sanity check' printed out. This is from our document ready function. Next, click on the button. Underneath, on the next line, you should see 'Button Clicked' printed out. So we have now successfully added an event listener to that button. Every time we click the button, it will perform the task we've specified. So right now, every time we click that button, it will print out 'Button Clicked'.
+
+This is all well and good, but why not do something a little more exciting. How about a new background colour? We can again search the jQuery docs for changing css background. The command is simply ```.css()``` So let's add this into our on.click :
+
+```js
+$('#myButton').on('click', function() {
+    $('body').css('background-color', 'red');
+  });
+```
+
+Again, we have the same syntax as before. The first part ```$('body')``` is selecting the body element of the page. After this we are adding the .css() function to change the elements css. We have passed it 2 arguments. 'background-color', because that is the css property we want to change, and then 'red', because that's the colour we want to change it to.
+
+So there you have it. We now have a basic button that does a single task. You can keep adding as much functionality as you want to your webpage, and there's tons more things to do with jQuery. So mess around. Try adding another button that will turn the background back to blue. Or using another jQuery function to do something completely different. Have fun!!!
