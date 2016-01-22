@@ -178,7 +178,7 @@ $('#myButton').on('click', function() {
   })
 ```
 
-Now reload the page and open up the console. You should see on the first line 'sanity check' printed out. This is from our document ready function. Next, click on the button. Underneath, on the next line, you should see 'Button Clicked' printed out. So we have now successfully added an event listener to that button. Every time we click the button, it will perform the task we've specified. So right now, every time we click that button, it will print out 'Button Clicked'.
+Now reload the page and open up the console. You should see on the first line 'sanity check' printed out. This is from our document readyfunction. Next, click on the button. Underneath, on the next line, you should see 'Button Clicked' printed out. So we have now successfully added an event listener to that button. Every time we click the button, it will perform the task we've specified. So right now, every time we click that button, it will print out 'Button Clicked'.
 
 This is all well and good, but why not do something a little more exciting. How about a new background colour? We can again search the jQuery docs for changing css background. The command is simply ```.css()``` So let's add this into our on.click :
 
