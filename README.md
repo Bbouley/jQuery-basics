@@ -136,7 +136,7 @@ Alright. Let's get crazy. I'm now going to add a button to my html, give it an i
   </button>
 ```
 
-We now have a big button on our web page, but it doesn't actually do anything!!! So let's sort that out. Moving back into our javascript, we have to first got inside our document.ready function and select the button. Why? Because we want the button to perform an action when we click it, we first have to tell our browser what element on the page is going to respond in which way. With jQuery, selecting elements becomes really easy. In order to select an element with and id 'myButton', we write the following :
+We now have a big button on our web page, but it doesn't actually do anything!!! So let's sort that out. Moving back into our javascript, we have to first got inside our document.ready function and select the button. Why? Because we want the button to perform an action when we click it, we first have to tell our browser what element on the page is going to respond in which way. With jQuery, selecting elements becomes really easy. In order to select an element with an id 'myButton', we write the following :
 
 ```js
 $('#myButton')
